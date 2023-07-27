@@ -10,6 +10,12 @@
 
 
 /* PRIMEIRA PARTE */
+#primario{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
 
 /* imagem de fundo */
 .imagem-fundo{
@@ -21,7 +27,6 @@
 /* logo inicial */
 .logo{
     margin-top: -160px;
-    margin-left: 95vh;
 }
 
 /* estilização dos textos */
@@ -43,7 +48,6 @@
 
 /* botões abaixo do texto */
 .btns-inicio{
-    margin-left: 450px;
     margin-top: 40px;
 }
 
